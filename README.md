@@ -1,7 +1,4 @@
-
-
-
-Biotech research intelligence powered by Google's A2A protocol.
+## Biotech research intelligence powered by Google's A2A protocol.
 
 BioMesh is a multi-agent orchestration platform for biotech research workflows. It chains specialized agents to search arXiv, query OpenFDA, synthesize evidence, and generate a clinical executive summary. The orchestrator acts as an A2A client, reads agent cards, manages task lifecycle, and returns a final research report through a FastAPI backend and a Gradio interface.
 
