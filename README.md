@@ -225,7 +225,7 @@ uv sync
 ### Configuration
 
 ```bash
-cp .env.example .env
+cp .env
 ```
 
 Open `.env` and set your Groq API key:
