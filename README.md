@@ -2,7 +2,7 @@
 
 > Biotech research intelligence powered by Google's A2A protocol.
 
-BioMesh is a production-grade multi-agent orchestration platform that implements the full [Google A2A (Agent-to-Agent) protocol specification](https://google.github.io/A2A/). It chains four specialized agents — ArxivAgent, OpenFDAAgent, AnalysisAgent, and SummaryAgent — to transform a single biotech research query into a structured clinical intelligence report in under two minutes.
+BioMesh is a multi-agent orchestration platform that implements the full [Google A2A (Agent-to-Agent) protocol specification](https://google.github.io/A2A/). It chains four specialized agents — ArxivAgent, OpenFDAAgent, AnalysisAgent, and SummaryAgent — to transform a single biotech research query into a structured clinical intelligence report in under two minutes.
 
 The orchestrator acts as a compliant A2A Client: it reads Agent Cards, dispatches tasks with full lifecycle management (`submitted → working → completed`), passes typed artifacts between agents, and returns a traceable pipeline result through a FastAPI backend and Gradio interface.
 
