@@ -336,7 +336,7 @@ BioMesh/
 │   └── api.py             # FastAPI: /orchestrate, /.well-known/, /agents, /status
 ├── ui.py                  # Gradio interface
 ├── main.py                # Entry point: FastAPI on 8000, Gradio on 7860
-├── .env.example
+├── .env
 ├── pyproject.toml         # uv project dependencies
 ├── uv.lock                # Pinned dependency tree — commit this
 ├── Dockerfile
